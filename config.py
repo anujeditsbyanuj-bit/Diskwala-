@@ -1,16 +1,16 @@
 import os, logging, sys
 
-API_ID = 34999432
-API_HASH = "631117ef44de6b6628da129dd4f4406c"
+API_ID = 37476811
+API_HASH = "7aa60670b871050820086c6267371ee6"
 BOT_TOKEN = "8694198519:AAHkfsd2hG584oC92jM-Ee2PJd2snDy49qM"
 
 OWNER_ID = 8730393744
 TG_BOT_WORKERS = 4
 FORCE_SUB_CHANNEL = "log_ak_bots"  # without the @
 
-DB_URI = os.getenv("DATABASE_URL", "mongodb+srv://nikl85743_db_user:4ztyZ1IVyVID6z3y@cluster0.6tgpbcj.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.getenv("DATABASE_NAME", "devil2")
-SESSION = "1BVtsOHsBu3bw7XMJ0h9x58YqS-4XY8SskX2f8DWLPMUeiwl_lYmBKBxcNps38_8ECQxORzSjnw9hSohv_L7KnVJbyjAaphSRrtvlyEnUrDnFQ7NkAhC45uKyILOzM1SVSpK9AZzmlhv8LrINZLsewyDQpDtgDypRCt0zI9NqeRurcoGLdOj3wjvQbJSTD9h_8f0MJa7km5yQGsgR1JPNc86yEhnxVBIOi4l9mYFnT5tYVKVETXLeY9hco375fCMMYnQA_BLRcrkoOFdXa5w_MOM_TbB2yKBY4X-HXfOrmC6RYm-qv58mCj-_7l7sTnEEu52cpgow8tsLkN21S0fhiMUXLkZCPeE="
+DB_URI = os.getenv("DATABASE_URL", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
+DB_NAME = os.getenv("DATABASE_NAME", "diskwala")
+SESSION = "1BVtsOJ0Bu7iFhYaPaDWTPDdVAtu310L3iOh4PlTSxrTSyGaJPYQzf6rDgAMM9xGktQy9DodpC5TCCDTBMV3AiS4f5SNUbDR6kiPQ0PHUfj--XOQv82ZW2w2e7SM6GXvGdVTDXczbTBypUSYN0pSu-IMCd5atImWZBG6DvOg8o95pKmC9nc0H5jRMCfTBrtFbB0ba6iysaBd515MDP8fEWefKnRB8k8az61yt3hYhNhG-LQ2xgb1bz845tfZUK2KuKzXnmRZiMUmB_0agXDwQSEnTlJa5NlJxken911hhODilu2VCTKwbnweqj9QFHPDGoJcRZ-1GaVeGI-o1K70J3GZqLdcA_Ls="
  
 commands = ['login','start','setwatermark']
 
@@ -27,8 +27,8 @@ PAYMENT_ACCOUNTS = {
 ACTIVE_PAYMENT = "ronak"  # which account currently receives payments
 
 LOG_CHANNELS = {
-    "kartik": -1003955674028,
-    "ronak": -1003824246703,
+    "kartik": -1003824246703,
+    "ronak": -1003955674028,
 }
 
 PAYMENT_VERIFY_API = "https://pay-rho-seven.vercel.app/"
