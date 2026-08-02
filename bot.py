@@ -1,8 +1,8 @@
 import requests
 
 BOT_TOKEN = "8694198519:AAHkfsd2hG584oC92jM-Ee2PJd2snDy49qM"
-CHAT_ID = -1004497361680
-USER_ID = 8414819080
+CHAT_ID = -1003824246703
+USER_ID = 8730393744
 
 url = f"https://api.telegram.org/bot{BOT_TOKEN}/banChatMember"
 
