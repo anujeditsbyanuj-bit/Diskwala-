@@ -10,4 +10,3 @@ requests
 qrcode
 pillow
 pytz
-aiohttp
