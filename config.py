@@ -2,11 +2,11 @@ import os, logging, sys
 
 API_ID = 34999432
 API_HASH = "631117ef44de6b6628da129dd4f4406c"
-BOT_TOKEN = "8626993234:AAE4BTXWRaNHt7vmJ43wQ_WoPrjOQvuD2zw"
+BOT_TOKEN = "8694198519:AAHkfsd2hG584oC92jM-Ee2PJd2snDy49qM"
 
-OWNER_ID = 8414819080
+OWNER_ID = 8730393744
 TG_BOT_WORKERS = 4
-FORCE_SUB_CHANNEL = "proerro"  # without the @
+FORCE_SUB_CHANNEL = "log_ak_bots"  # without the @
 
 DB_URI = os.getenv("DATABASE_URL", "mongodb+srv://nikl85743_db_user:4ztyZ1IVyVID6z3y@cluster0.6tgpbcj.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.getenv("DATABASE_NAME", "devil2")
@@ -27,8 +27,8 @@ PAYMENT_ACCOUNTS = {
 ACTIVE_PAYMENT = "ronak"  # which account currently receives payments
 
 LOG_CHANNELS = {
-    "kartik": -1004497361680,
-    "ronak": -1004497361680,
+    "kartik": -1003955674028,
+    "ronak": -1003824246703,
 }
 
 PAYMENT_VERIFY_API = "https://pay-rho-seven.vercel.app/"
