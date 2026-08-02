@@ -1,0 +1,20 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+RUN apt-get update && \
+    apt-get install -y git openssh-client docker.io ffmpeg aria2 && \
+    rm -rf /var/lib/apt/lists/*
+
+# ── Git SSH setup — no token needed ever
+RUN git config --global url."git@github.com:".insteadOf "https://github.com/" && \
+    mkdir -p /root/.ssh && \
+    ssh-keyscan github.com >> /root/.ssh/known_hosts && \
+    chmod 600 /root/.ssh/known_hosts
+
+COPY requirements.txt requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["python3", "bot.py"]

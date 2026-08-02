@@ -1,0 +1,13 @@
+pyrogram
+tgcrypto
+pyromod
+motor
+pymongo
+dnspython
+aiohttp
+telethon
+requests
+qrcode
+pillow
+pytz
+aiohttp

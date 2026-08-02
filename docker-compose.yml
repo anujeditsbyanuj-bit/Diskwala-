@@ -1,0 +1,14 @@
+services:
+  hentai-downloader:
+    container_name: diskwala
+    build:
+      context: .
+      dockerfile: DockerFile
+    # ports:
+    #   - "8912:6000"       # app port
+    restart: unless-stopped
+    volumes:
+      - ~/.ssh:/root/.ssh:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./downloads:/app/downloads
+    command: "python3 bot.py"
