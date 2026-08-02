@@ -8,7 +8,7 @@ OWNER_ID = 8730393744
 TG_BOT_WORKERS = 4
 FORCE_SUB_CHANNEL = "log_ak_bots"  # without the @
 
-DB_URI = os.getenv("DATABASE_URL", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
+DB_URI = os.getenv("MONGO_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
 DB_NAME = os.getenv("DATABASE_NAME", "diskwala")
 SESSION = "1BVtsOJ0Bu7iFhYaPaDWTPDdVAtu310L3iOh4PlTSxrTSyGaJPYQzf6rDgAMM9xGktQy9DodpC5TCCDTBMV3AiS4f5SNUbDR6kiPQ0PHUfj--XOQv82ZW2w2e7SM6GXvGdVTDXczbTBypUSYN0pSu-IMCd5atImWZBG6DvOg8o95pKmC9nc0H5jRMCfTBrtFbB0ba6iysaBd515MDP8fEWefKnRB8k8az61yt3hYhNhG-LQ2xgb1bz845tfZUK2KuKzXnmRZiMUmB_0agXDwQSEnTlJa5NlJxken911hhODilu2VCTKwbnweqj9QFHPDGoJcRZ-1GaVeGI-o1K70J3GZqLdcA_Ls="
  
